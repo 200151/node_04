@@ -3,3 +3,7 @@ exports.values=[
     { id: 2, name: '紅茶', price: 180},
     { id: 3, name: 'ほうじ茶', price: 100},
 ]
+
+exports.find=(id)=>{
+   return this.values.find(value=>value.id==id)
+}
